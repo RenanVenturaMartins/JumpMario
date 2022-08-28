@@ -88,3 +88,14 @@
         right: 100%;
     }
 }
+input {
+    border-radius: 25px;
+    background-color: red;
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    min-width: 120px;
+    min-height: 80px;
+    margin-left: 45%;
+
+}

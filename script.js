@@ -28,3 +28,8 @@ const lopp = setInterval(() => {
 } , 10) ;
 
 document.addEventListener('keydown', jump);
+
+var btn = document. querySelector("#reset")
+btn. addEventListener("click", function() {
+location. reload();
+});
