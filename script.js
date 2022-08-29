@@ -1,3 +1,5 @@
+alert = 'dispositivos mobile deite a tela'
+
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 
