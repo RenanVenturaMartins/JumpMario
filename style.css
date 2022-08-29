@@ -90,6 +90,7 @@
 }
 
 input {
+    margin: 10px;
     border-radius: 25px;
     background-color: red;
     color: whitesmoke;
@@ -97,6 +98,7 @@ input {
     font-size: 36px;
     min-width: 120px;
     min-height: 80px;
-    margin-left: 45%;
+    display: flexbox;
+
 
 }
