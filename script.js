@@ -1,4 +1,4 @@
-alert = 'dispositivos mobile deite a tela'
+
 
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
@@ -15,7 +15,7 @@ const lopp = setInterval(() => {
     const pipePosition =  pipe.offsetLeft;
     const marioPosition = window.getComputedStyle(mario).bottom.replace('px' , '');
     
-    if ( pipePosition  <= 120 && marioPosition < 90) {
+    if ( pipePosition  <= 100 && marioPosition < 100) {
         pipe.style.animation = 'none' ;
         pipe.style.left = `${pipePosition}px`;
 
@@ -42,7 +42,7 @@ jump1.addEventListener("click", function() {
 
     setTimeout(()=> {
         mario.classList.remove('jump')
-    }, 500);
+    }, 1500);
 }
 );
 

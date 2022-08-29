@@ -17,7 +17,7 @@
 .pipe{
     position: absolute;
     bottom: 0;
-    width: 80px;
+    width: 75px;
     right: 0;
     animation: pipe-animation 1.5s infinite linear;
 
@@ -59,13 +59,13 @@
     }
 
     40% {
-        bottom: 220px;
+        bottom: 240px;
     }
     50% {
-        bottom: 220px;
+        bottom: 250px;
     }
     60%{
-        bottom: 220px;
+        bottom: 230px;
     }
     70%{
         bottom: 210px;
